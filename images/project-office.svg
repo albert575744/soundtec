@@ -1,0 +1,41 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="officeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#officeGrad)"/>
+
+  <!-- Meeting rooms -->
+  <rect x="100" y="150" width="150" height="120" rx="8" fill="white" opacity="0.2"/>
+  <rect x="270" y="150" width="150" height="120" rx="8" fill="white" opacity="0.2"/>
+  <rect x="440" y="150" width="150" height="120" rx="8" fill="white" opacity="0.2"/>
+  <rect x="610" y="150" width="150" height="120" rx="8" fill="white" opacity="0.2"/>
+
+  <!-- Video conference screens -->
+  <rect x="120" y="170" width="110" height="60" rx="5" fill="white" opacity="0.4"/>
+  <rect x="290" y="170" width="110" height="60" rx="5" fill="white" opacity="0.4"/>
+  <rect x="460" y="170" width="110" height="60" rx="5" fill="white" opacity="0.4"/>
+  <rect x="630" y="170" width="110" height="60" rx="5" fill="white" opacity="0.4"/>
+
+  <!-- Speakers/mics -->
+  <circle cx="175" cy="250" r="8" fill="white" opacity="0.6"/>
+  <circle cx="345" cy="250" r="8" fill="white" opacity="0.6"/>
+  <circle cx="515" cy="250" r="8" fill="white" opacity="0.6"/>
+  <circle cx="685" cy="250" r="8" fill="white" opacity="0.6"/>
+
+  <!-- Network connections -->
+  <path d="M175 280 L175 340 L400 340" stroke="white" stroke-width="3" stroke-dasharray="5,5" opacity="0.3"/>
+  <path d="M345 280 L345 340 L400 340" stroke="white" stroke-width="3" stroke-dasharray="5,5" opacity="0.3"/>
+  <path d="M515 280 L515 340 L400 340" stroke="white" stroke-width="3" stroke-dasharray="5,5" opacity="0.3"/>
+  <path d="M685 280 L685 340 L400 340" stroke="white" stroke-width="3" stroke-dasharray="5,5" opacity="0.3"/>
+
+  <!-- Central hub -->
+  <circle cx="400" cy="340" r="30" fill="white" opacity="0.4"/>
+  <text x="400" y="350" font-family="Inter" font-size="20" font-weight="700" fill="#43e97b" text-anchor="middle">NET</text>
+
+  <!-- Text -->
+  <text x="400" y="430" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">OFFICE</text>
+</svg>

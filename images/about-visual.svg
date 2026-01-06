@@ -1,0 +1,40 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#aboutGrad)"/>
+
+  <!-- Audio equipment silhouettes -->
+  <!-- Mixer -->
+  <rect x="150" y="200" width="300" height="150" rx="10" fill="white" opacity="0.2"/>
+  <circle cx="220" cy="250" r="25" fill="white" opacity="0.3"/>
+  <circle cx="300" cy="250" r="25" fill="white" opacity="0.3"/>
+  <circle cx="380" cy="250" r="25" fill="white" opacity="0.3"/>
+  <rect x="200" y="290" width="15" height="40" rx="3" fill="white" opacity="0.3"/>
+  <rect x="280" y="300" width="15" height="30" rx="3" fill="white" opacity="0.3"/>
+  <rect x="360" y="285" width="15" height="45" rx="3" fill="white" opacity="0.3"/>
+
+  <!-- Microphone -->
+  <circle cx="120" cy="450" r="35" fill="white" opacity="0.25"/>
+  <rect x="115" y="450" width="10" height="120" fill="white" opacity="0.25"/>
+  <path d="M100 570 L140 570 L130 590 L110 590 Z" fill="white" opacity="0.25"/>
+
+  <!-- Speaker -->
+  <rect x="420" y="420" width="100" height="150" rx="8" fill="white" opacity="0.25"/>
+  <circle cx="470" cy="470" r="30" fill="white" opacity="0.15"/>
+  <circle cx="470" cy="470" r="20" fill="white" opacity="0.15"/>
+  <circle cx="470" cy="530" r="20" fill="white" opacity="0.15"/>
+  <circle cx="470" cy="530" r="12" fill="white" opacity="0.15"/>
+
+  <!-- Waveform -->
+  <path d="M50 650 L80 620 L110 670 L140 600 L170 680 L200 610 L230 665 L260 625 L290 655 L320 635 L350 660 L380 630 L410 670 L440 620 L470 650 L500 640 L530 655 L550 645"
+        stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+  <!-- Decorative elements -->
+  <circle cx="80" cy="120" r="50" fill="white" opacity="0.1"/>
+  <circle cx="520" cy="650" r="60" fill="white" opacity="0.1"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="confGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#confGrad)"/>
+
+  <!-- Conference room illustration -->
+  <rect x="100" y="150" width="600" height="300" rx="10" fill="white" opacity="0.1"/>
+
+  <!-- Microphones -->
+  <circle cx="300" cy="280" r="30" fill="white" opacity="0.3"/>
+  <rect x="295" y="280" width="10" height="60" fill="white" opacity="0.3"/>
+
+  <circle cx="500" cy="280" r="30" fill="white" opacity="0.3"/>
+  <rect x="495" y="280" width="10" height="60" fill="white" opacity="0.3"/>
+
+  <!-- Speakers -->
+  <rect x="150" y="200" width="40" height="60" rx="5" fill="white" opacity="0.2"/>
+  <rect x="610" y="200" width="40" height="60" rx="5" fill="white" opacity="0.2"/>
+
+  <!-- Sound waves -->
+  <circle cx="400" cy="250" r="50" stroke="white" stroke-width="2" fill="none" opacity="0.2"/>
+  <circle cx="400" cy="250" r="80" stroke="white" stroke-width="2" fill="none" opacity="0.15"/>
+  <circle cx="400" cy="250" r="110" stroke="white" stroke-width="2" fill="none" opacity="0.1"/>
+
+  <!-- Text -->
+  <text x="400" y="420" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">CONFERENCE</text>
+</svg>

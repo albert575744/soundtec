@@ -1,0 +1,15 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sound wave icon -->
+  <circle cx="20" cy="30" r="18" fill="url(#logoGradient)"/>
+  <path d="M15 30h10M12 25h16M12 35h16M10 20h20M10 40h20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- SOUNDTEC text -->
+  <text x="45" y="38" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="url(#logoGradient)">SOUNDTEC</text>
+</svg>

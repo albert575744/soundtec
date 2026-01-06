@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="restGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#restGrad)"/>
+
+  <!-- Restaurant interior -->
+  <rect x="150" y="200" width="500" height="250" rx="10" fill="white" opacity="0.15"/>
+
+  <!-- Ceiling speakers -->
+  <circle cx="250" cy="150" r="25" fill="white" opacity="0.3"/>
+  <circle cx="400" cy="150" r="25" fill="white" opacity="0.3"/>
+  <circle cx="550" cy="150" r="25" fill="white" opacity="0.3"/>
+
+  <!-- Speaker grills -->
+  <circle cx="250" cy="150" r="18" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <circle cx="250" cy="150" r="12" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+
+  <circle cx="400" cy="150" r="18" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="150" r="12" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+
+  <circle cx="550" cy="150" r="18" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <circle cx="550" cy="150" r="12" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+
+  <!-- Tables -->
+  <circle cx="300" cy="300" r="40" fill="white" opacity="0.2"/>
+  <circle cx="500" cy="300" r="40" fill="white" opacity="0.2"/>
+
+  <!-- Sound zones -->
+  <circle cx="250" cy="180" r="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" fill="none" opacity="0.3"/>
+  <circle cx="400" cy="180" r="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" fill="none" opacity="0.3"/>
+  <circle cx="550" cy="180" r="100" stroke="white" stroke-width="2" stroke-dasharray="5,5" fill="none" opacity="0.3"/>
+
+  <!-- Text -->
+  <text x="400" y="450" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">RESTAURANT</text>
+</svg>
